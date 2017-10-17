@@ -1,5 +1,4 @@
 scss_files: '_scss/*.scss'
-exclude: '_scss/bootstrap/**'
 linters:
   Comment:
     enabled: false
@@ -11,4 +10,3 @@ linters:
     enabled: false
   UrlFormat:
     enabled: false
-
