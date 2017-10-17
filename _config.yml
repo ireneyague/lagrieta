@@ -11,6 +11,7 @@ excerpt_separator: <!--more-->
 title: La Grieta
 description: Una película de Irene Yagüe Herrero y Alberto García Ortiz.
 author: Alejandro Zappala
+url: "https://alayzappala.github.io/lagrieta"
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
