@@ -1,0 +1,19 @@
+permalink: /:year/:month/:title.html
+safe: true
+markdown: kramdown
+highlighter: rouge
+syntax-highlighting:
+  enabled: true
+paginate: 2
+sass:
+  style: compressed
+excerpt_separator: <!--more-->
+title: La Grieta
+description: Una película de Irene Yagüe Herrero y Alberto García Ortiz.
+author: Alejandro Zappala
+gems:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
