@@ -3,8 +3,8 @@
   <channel>
     <title>La Grieta</title>
     <description>Una película de Irene Yagüe Herrero y Alberto García Ortiz.</description>
-    <link>http://localhost:4000/lagrieta/</link>
-    <atom:link href="http://localhost:4000/lagrieta/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>La Grieta seleccionada para la SEMINCI 17</title>
@@ -13,8 +13,8 @@
 &lt;p&gt;Aquí el &lt;a href=&quot;http://seminci.es/wp-content/uploads/2017/10/Programacion_2017.pdf&quot;&gt;programa completo de la SEMINCI 17&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 13 Oct 2017 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/lagrieta/2017/10/la_grieta-seleccionada-para-seminci-17.html</link>
-        <guid isPermaLink="true">http://localhost:4000/lagrieta/2017/10/la_grieta-seleccionada-para-seminci-17.html</guid>
+        <link>http://localhost:4000/2017/10/la_grieta-seleccionada-para-seminci-17.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/10/la_grieta-seleccionada-para-seminci-17.html</guid>
       </item>
     
   </channel>
