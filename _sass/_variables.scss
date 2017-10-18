@@ -13,10 +13,14 @@ $brown: #40201A;
 font-family: "Bebas Kai";
 src: url("../fonts/BebasKai-Regular.otf") format("truetype");
 }
+@font-face {
+font-family: "DejaVu Sans";
+src: url("../fonts/DejaVuSans.ttf") format("truetype");
+}
 
 // globals
 $body-bg: $black;
-$font-family-sans-serif: "Montserrat", sans-serif;
+$font-family-sans-serif: "DejuaVu Sans", sans-serif;
 $headings-font-family: "Bebas Kai", sans-serif;
 $font-family-base: $font-family-sans-serif;
 $headings-color: $white;
