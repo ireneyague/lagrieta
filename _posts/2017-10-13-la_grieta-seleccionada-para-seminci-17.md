@@ -4,6 +4,8 @@ title: La Grieta seleccionada para la SEMINCI 17
 tags: noticias
 ---
 
+![Foto de grupo 01](./images/seminci/cartel.jpg)
+
 Estamos felices de poder estrenar el lunes 23 de octubre, en el marco de la Semana Internacional de Cine de Valladolid.
 
 

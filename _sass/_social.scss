@@ -10,6 +10,7 @@
   }
 
   a:hover {
+    color: $green;
     text-shadow: 0 0 10px $black;
     transition: text-shadow .2s ease-in-out;
     //color: white;
