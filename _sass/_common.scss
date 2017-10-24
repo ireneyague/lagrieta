@@ -5,6 +5,7 @@ h1 {
 h2 {
   font-size: 3rem;
   padding-left: 1.4rem;
+  text-align: center;
 //  transform: rotateZ(2.9deg);
 }
 
@@ -32,6 +33,7 @@ a:hover {
 }
 
 footer {
+  position: fixed;
   color: $white;
   margin-top: 2rem;
   text-shadow: 0 0 5px $black;
