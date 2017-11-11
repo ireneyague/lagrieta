@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>La Grieta</title>
+    <description>Una película de Irene Yagüe Herrero y Alberto García Ortiz.</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>La Grieta seleccionada para la SEMINCI 17</title>
+        <description>&lt;p&gt;&lt;img src=&quot;./images/seminci/cartel.jpg&quot; alt=&quot;Foto cartel seminci&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Estamos felices de poder estrenar el lunes 23 de octubre, en el marco de la Semana Internacional de Cine de Valladolid.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Aquí el &lt;a href=&quot;http://seminci.es/wp-content/uploads/2017/10/Programacion_2017.pdf&quot;&gt;programa completo de la SEMINCI 17&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 13 Oct 2017 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2017/10/la_grieta-seleccionada-para-seminci-17.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/10/la_grieta-seleccionada-para-seminci-17.html</guid>
+      </item>
+    
+  </channel>
+</rss>
