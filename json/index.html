@@ -1,4 +1,1 @@
----
-title: json
----
-{"homepage":"{{ site.production_url }}","name":"{{ site.title }}","description":"{{ site.tagline }}","author":"{{ site.author.name }}","posts":[{% for post in site.posts %}{"url":"{{ site.production_url }}{{ post.url }}","title":"{{ post.title }}","id": "{{ post.id }}","published_on":"{{ post.date | date: "%-d %B %Y" }}"}{% if forloop.rindex0 > 0 %},{% endif %}{% endfor %}]}
+{"homepage":"","name":"La Grieta","description":"","author":"","posts":[{"url":"/2017/10/medios.html","title":"La Grieta en los medios","id": "/2017/10/medios","published_on":"13 October 2017"},{"url":"/2017/10/la_grieta-seleccionada-para-seminci-17.html","title":"La Grieta seleccionada para la SEMINCI 17","id": "/2017/10/la_grieta-seleccionada-para-seminci-17","published_on":"13 October 2017"},{"url":"/2017/10/creditos.html","title":"Creditos","id": "/2017/10/creditos","published_on":"13 October 2017"}]}
