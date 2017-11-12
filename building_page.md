@@ -32,7 +32,7 @@ $ cd _site:
 target all files for commit:
 
 ```
-$ git add -
+$ git add -A
 ```
 commit them:
 
