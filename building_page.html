@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>Deployment | La Grieta</title>
+<meta property="og:title" content="Deployment" />
+<meta name="author" content="Alejandro Zappala" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Una película de Irene Yagüe Herrero y Alberto García Ortiz." />
+<meta property="og:description" content="Una película de Irene Yagüe Herrero y Alberto García Ortiz." />
+<meta property="og:site_name" content="La Grieta" />
+<script type="application/ld+json">
+{"name":null,"description":"Una película de Irene Yagüe Herrero y Alberto García Ortiz.","author":{"@type":"Person","name":"Alejandro Zappala"},"@type":"WebPage","url":"/building_page","publisher":null,"image":null,"headline":"Deployment","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link href="/assets/css/style.css?v=cfd1936371fa6fbd9184e23cb330724eee4b157a" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      
+        <h1><a href="/">La Grieta</a></h1>
+      
+
+      <h2 id="deployment">Deployment</h2>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>git clone https://github.com/username/repositoryname.git
+</code></pre>
+</div>
+
+<p>Checkout your branch, where your build-source is located (maybe src, or master)</p>
+
+<p>(Optional Add: _site to your .gitconfig, so it get’s ignored, if not already done)</p>
+
+<p>Remove all content of the _site directory:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ rm -r _site/*
+</code></pre>
+</div>
+
+<p>Clone your repo’s gh-pages branch into the _site directory:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ git clone -b gh-pages `git config remote.origin.url` _site
+</code></pre>
+</div>
+
+<p>Final steps: Just let jekyll build, do commit &amp; push:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ bundle exec jekyll build
+</code></pre>
+</div>
+
+<p>cd into _site:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ cd _site:
+</code></pre>
+</div>
+<p>target all files for commit:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ git add -A
+</code></pre>
+</div>
+<p>commit them:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>git commit -am 'Yeah. Built from subdir'
+</code></pre>
+</div>
+
+<p>and push your site to GitHub-Pages:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>git push origin gh-pages
+</code></pre>
+</div>
+
+
+      
+    </div>
+    <script src="/assets/javascript/anchor-js/anchor.min.js"></script>
+    <script>anchors.add();</script>
+  </body>
+</html>
